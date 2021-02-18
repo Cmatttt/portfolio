@@ -1,7 +1,6 @@
 import React from 'react'
 import {Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink} from './NavbarElements'
-import lo from '../../images/cmLogo.svg';
-import Logo from '../../images/cmLogo.svg';
+import Logo from '../../images/cmLogoWhiteThin.svg';
 //import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
@@ -9,7 +8,7 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavLink to="/">
-                <img style={{width: 220,height:300}} src={Logo} alt='logo' />
+                <img style={{width: 120,height:120}} src={Logo} alt='logo' />
                 </NavLink>
                 <Bars />
                 <NavMenu>

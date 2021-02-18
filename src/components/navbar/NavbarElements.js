@@ -3,7 +3,8 @@ import { NavLink as Link } from 'react-router-dom'
 import {FaBars} from 'react-icons/fa'
 
 export const Nav = styled.nav`
-    background: #808080;
+    background: #000;
+    opacity: 70%;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -40,7 +41,8 @@ export const Bars = styled(FaBars)`
         position: absolute;
         top: 0;
         right: 0;
-        transform: translate(-100%, 75%)
+        align-items: center;
+        transform: translate(-100%, 75%);
         font-size: 1.8rem;
         cursor: pointer;
     }
@@ -58,7 +60,7 @@ export const NavMenu = styled.div`
 
 export const NavBtn = styled.nav`
     display: flex;
-    align-items: cenetr;
+    align-items: center;
     margin-right: 24px;
 
     @media screen and (max-width: 768pc) {
@@ -70,7 +72,7 @@ export const NavBtnLink = styled(Link)`
     border-radius: 4px;
     background: #256ce1;
     padding: 10px 22px;
-    color: #fff
+    color: #fff;
     border: none;
     outline: none;
     cursor: pointer;
@@ -78,7 +80,7 @@ export const NavBtnLink = styled(Link)`
     text-decoration: none;
 
     &:hover {
-        trabsition 0.2s ease-in-out;
+        transition: all 0.2 ease-in-out;
         background: #fff;
         color: #010606
     }
