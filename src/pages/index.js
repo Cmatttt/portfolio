@@ -8,7 +8,7 @@ function Home() {
             <style>{'body { background-color: grey; }'}</style>
             <Header>
                 <Image>
-                    <img src={Logo} alt='logo' />
+                    <img src={Logo} alt='logo' />                
                 </Image>
                 <Name>
                     <h1>Christian Matthews</h1>

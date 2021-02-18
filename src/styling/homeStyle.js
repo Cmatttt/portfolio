@@ -2,22 +2,22 @@ import styled from 'styled-components'
 
 
 export const Header = styled.div`
-    position: relative;
+    background: green;
+    text-align: center;
 `
 
-export const Image = styled.div`
+export const Image = styled.image`
     width: 55%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 `
 
-export const Name = styled.div`
-    font-size: 40px;
-    position: absolute;
-    top:20%;
+export const Name = styled.h1`
+    font-size: 20px;
     width: 100%;
-    text-align: center;
+    margin: 0;
+    /* top: 50%; */
     opacity: 0;
 
     animation: fadeIn ease 12s;
@@ -26,6 +26,7 @@ export const Name = styled.div`
     -o-animation: fadeIn ease 12s;
     -ms-animation: fadeIn ease 12s;
     animation-delay: 4.5s;
+    animation-fill-mode: forwards;
 
 
     @keyframes fadeIn {
