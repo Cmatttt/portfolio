@@ -8,9 +8,11 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Switch>
+      {/* <Switch>
         <Route path="/" exact component={Home} />
-      </Switch>
+      </Switch> */}
+
+      <Home/>
     </Router>
   );
 }

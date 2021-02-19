@@ -10,7 +10,7 @@ const Navbar = () => {
                 <NavLink to="/">
                 <img style={{width: 120,height:120}} src={Logo} alt='logo' />
                 </NavLink>
-                <Bars />
+                <Bars /> 
                 <NavMenu>
                     <NavLink to="/about" activeStyle>
                         About

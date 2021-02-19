@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../images/cmLogoAnimated.svg';
+import Logo from '../images/cmLogoModern.svg';
 import { Header, Name, Image } from '../styling/homeStyle.js'
 
 function Home() {
@@ -10,9 +10,6 @@ function Home() {
                 <Image>
                     <img src={Logo} alt='logo' />                
                 </Image>
-                <Name>
-                    <h1>Christian Matthews</h1>
-                </Name>
             </Header>
         </>
     )
