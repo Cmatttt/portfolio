@@ -13,7 +13,7 @@ const Navbar = () => {
                         About
                     </NavLink>
                     <NavLink to="/mywork" activeStyle>
-                        My work   
+                        My work  
                     </NavLink>
                     <NavLink to="/contact" activeStyle>
                         Contact
