@@ -122,18 +122,16 @@ span.longName {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   html {
-    height: 812px;
   }
 
   .mywork {
     background-image: url("../images/mobile_sunset.jpg");
     background-size: 100% 100%;
-    height: 812px;
     margin-top: 0%;
   }
 
-  .workTitle {
-    margin-top: 0%;
+  .work {
+    margin-top: 15px;
     font-family: josefin, serif;
     text-align: center;
     font-size: 35px;

@@ -15,7 +15,9 @@ import Lightbike from '../images/lightbike.png';
 const mywork = () => {
     return (
         <div className="mywork">
-            <h1 className="workTitle">My Work</h1>
+            <div className="workTitle">
+                <p className="work">My Work</p>
+            </div>
             <div className="boxes">
                 <div className="box">
                     <table>
