@@ -1,5 +1,8 @@
 html {
   background-color: gray;
+}
+
+.mywork {
   background-image: url("../images/sunset.jpg");
   background-size: 100% 100%;
   height: 1360px;
@@ -119,22 +122,22 @@ span.longName {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   html {
-    background-image: none;
-    background-color: black;
     height: 812px;
   }
 
+  .mywork {
+    background-image: url("../images/mobile_sunset.jpg");
+    background-size: 100% 100%;
+    height: 812px;
+    margin-top: 0%;
+  }
+
   .workTitle {
+    margin-top: 0%;
     font-family: josefin, serif;
     text-align: center;
     font-size: 35px;
     margin-bottom: 0%;
-  }
-
-  .header {
-    background-image: url("../images/mobile_sunset.jpg");
-    background-size: 100% 100%;
-    height: 812px;
   }
 
   .description {
@@ -155,7 +158,7 @@ span.longName {
   }
 
   .box {
-    margin-top: 50px;
+    margin-top: 15px;
     background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     width: 100px;
