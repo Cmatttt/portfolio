@@ -7,6 +7,9 @@ import Github from '../images/github.png';
 import Codepen from '../images/codepen.png';
 import Quicksand from '../images/quicksand.png';
 import WebLogo from '../images/web.png';
+import Ios1 from '../images/ios1.png';
+import Ios2 from '../images/ios2.png';
+import Cpp from '../images/cpp.png';
 import Lightbike from '../images/lightbike.png';
 import { Link } from 'react-router-dom';
 
@@ -34,11 +37,11 @@ function Home() {
                             <p className="component">Bootstrap</p>
                         </div>
 
-                        <div className="logos">
-                            <a className="logo" href="https://codepen.io/Cmattt/full/MWaXvjY">
+                        <div className="cardLogos" valign="bottom">
+                            <a href="https://codepen.io/Cmattt/full/MWaXvjY">
                                 <img src={Codepen} alt='logo' />
                             </a>
-                            <a className="logo" href="https://github.com/Cmatttt/Card-Match">
+                            <a href="https://github.com/Cmatttt/Card-Match">
                                 <img src={Github} alt='logo' />
                             </a>
                         </div>
@@ -102,6 +105,44 @@ function Home() {
                         <div className="logos">
                             <a href="https://github.com/Cmatttt/Light-Bike-Fight-Final">
                                 <img className="androidLogo" src={Github} alt='logo' />
+                            </a>
+                        </div>
+                    </table>
+                </div>
+                <div className="box">
+                    <table>
+                        <img  className="iosImage" src={Ios1} alt='logo' />
+                        <p className="title">Covid-19 Risk App</p>
+                        <p className="appdescription">
+                            <span className="shortName">iOS app that determines the risk of Covid-19 based...</span>
+                            <span className="longName">iOS app that determines the risk of Covid-19 based on what county and what type of store place are at in Texas</span>
+                        </p>
+                        <div className="components">
+                            <p className="component">Swift</p>
+                            <p className="component">Google Places API</p>
+                            <p className="component">Firebase</p>
+                            <p className="component">SwiftyJSON</p>
+                        </div>
+
+                        <div>
+                            <a href="https://github.com/Cmatttt/cs4306-project">
+                                <img className="specialLogo" src={Github} alt='logo' />
+                            </a>
+                        </div>
+                    </table>
+                </div>
+                <div className="box">
+                    <table>
+                        <img  className="cppImage" src={Cpp} alt='logo' />
+                        <p className="title">C++ Compiler</p>
+                        <p className="appdescription">Compiler build using C++</p>
+                        <div className="components">
+                            <p className="component">C++</p>
+                        </div>
+
+                        <div>
+                            <a className="logo" href="https://github.com/Cmatttt/Card-Match">
+                                <img className="specialLogo" src={Github} alt='logo' />
                             </a>
                         </div>
                     </table>
