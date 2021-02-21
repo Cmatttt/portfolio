@@ -130,7 +130,7 @@ span.longName {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   html {
-    background-color: black;
+    background-color: #181818;
   }
 
   .header {
