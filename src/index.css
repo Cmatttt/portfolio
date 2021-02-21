@@ -15,5 +15,15 @@ code {
 @font-face {
   font-family: "Josefin";
   src: local("Josefin"), url("./fonts/Josefin.ttf") format("truetype");
-  font-weight: 100;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "simplifica";
+  src: local("simplifica"), url("./fonts/SIMPLIFICA.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "seg";
+  src: local("seg"), url("./fonts/Segoe\ UI.ttf") format("truetype");
 }
