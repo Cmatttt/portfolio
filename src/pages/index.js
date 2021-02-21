@@ -24,7 +24,7 @@ function Home() {
                 <p>Web Developer</p>
             </div>
 
-            <div className="boxes">
+            {/* <div className="boxes">
                 <div className="box">
                     <table>
                         <img  className="image" src={CardFlip} alt='logo' />
@@ -147,7 +147,7 @@ function Home() {
                         </div>
                     </table>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
