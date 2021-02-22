@@ -1,9 +1,15 @@
 html {
-  background-color: gray;
+  background-color: black;
 }
 
 .mywork {
+  background-image: url("../images/sunset.jpg");
+  background-size: 100% 100%;
   height: 1360px;
+}
+
+.work {
+  margin-top: 0%;
 }
 
 .workTitle {
@@ -13,28 +19,26 @@ html {
   margin-bottom: 0%;
 }
 
-.boxes {
-  margin-right: 400px;
-  margin-left: 400px;
+.allWork {
+  padding-left: 200px;
+  padding-right: 200px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.box {
-  margin-top: 50px;
-  background-color: rgba(255, 255, 255, 0.5);
-  display: flex;
+.projects {
   width: 240px;
-  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-around;
+  /* width: 240px; */
 }
 
-.image {
-  height: 140px;
-  width: 240px;
-}
-
-.title {
+.projectTitle {
   font-family: seg;
   margin-top: 5px;
   text-align: center;
@@ -43,12 +47,7 @@ html {
   margin-bottom: 0%;
 }
 
-.appdescription {
-  text-align: center;
-  margin: 10px;
-}
-
-.components {
+.projectComponents {
   font-size: 12px;
   margin-top: 4px;
   margin-left: 10px;
@@ -58,7 +57,7 @@ html {
   justify-content: space-around;
 }
 
-.component {
+.projectComponent {
   text-align: center;
   margin: 5px;
   background-color: lightsteelblue;
@@ -66,56 +65,36 @@ html {
   border-radius: 15px;
 }
 
-.logos {
+.projectLogos {
   display: flex;
-  padding-bottom: 20px;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 10px;
 }
 
-.androidLogo {
-  height: 50px;
-  width: 50px;
+.projectDescription {
+  text-align: center;
+  margin: 10px;
 }
 
-.specialLogo {
-  height: 50px;
-  width: 50px;
-  padding-bottom: 20px;
-}
-
-.iosImage {
-  height: 170px;
-  width: 170px;
-}
-
-.qsLogo {
-  height: 50px;
-  width: 50px;
-}
-
-.cppImage {
+.projectImage {
   height: 140px;
   width: 240px;
 }
 
-span.longName {
-  display: none;
+.iosImage {
+  height: 140px;
+  width: 190px;
 }
 
-.box:hover span.shortName {
-  display: none;
+.androidImage {
+  height: 140px;
+  width: 90px;
 }
 
-.box:hover span.longName {
-  display: block;
-}
-
-.cardLogos {
-  display: flex;
-  padding-top: 22px;
-  padding-bottom: 20px;
-  align-items: center;
+.projectLogo {
+  width: 50px;
+  height: 50px;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
@@ -123,125 +102,95 @@ span.longName {
     background-image: url("../images/mobile_sunset.jpg");
     background-size: 100% 100%;
     height: 812px;
-    margin-top: 0%;
   }
 
   .work {
+    color: darkgray;
     margin-top: 0%;
     margin-bottom: 0%;
     padding-top: 10px;
     font-size: 40px;
   }
 
-  .description {
-    margin-top: -20px;
-    font-size: 25px;
-    font-weight: lighter;
-    text-align: center;
+  .allWork {
+    padding-left: 200px;
+    padding-right: 200px;
+    display: inline;
   }
 
-  .boxes {
-    margin-top: 0%;
-    margin-right: 0px;
-    margin-left: 0px;
+  .projects {
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    border-radius: 10px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 812px;
-    overflow: hidden;
+    flex-direction: row;
+    justify-content: unset;
   }
 
-  .box {
-    margin-top: 15px;
-    background-color: rgba(255, 255, 255, 0.5);
-    display: flex;
-    width: 100px;
-    border-radius: 20px;
+  .projectImage {
+    height: 80px;
+    width: 140px;
+    margin: 0%;
   }
 
-  .image {
-    height: 30px;
-    width: 60px;
+  .androidImage {
+    height: 90px;
+    width: 50px;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    margin: 0%;
   }
 
-  .title {
+  .iosImage {
+    height: 95px;
+    width: 90px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .projectTitle {
     margin-top: 5px;
-    text-align: center;
+    text-align: left;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 0%;
   }
 
-  .appdescription {
-    font-size: 6px;
-    text-align: center;
-    margin: 10px;
+  .projectDescription {
+    font-size: 10px;
+    text-align: left;
+    margin: 0px;
   }
 
-  .components {
-    font-size: 4px;
+  .projectComponents {
+    font-size: 6px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    margin-left: 0%;
+    justify-content: left;
   }
 
-  .component {
+  .projectComponent {
     text-align: center;
-    margin: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
     background-color: lightsteelblue;
     padding: 4px;
     border-radius: 15px;
   }
 
-  .logos {
+  .projectLogos {
     display: flex;
-    padding-bottom: 10px;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .androidLogo {
-    height: 25px;
-    width: 25px;
-  }
-
-  .specialLogo {
-    height: 25px;
-    width: 25px;
+    justify-content: space-around;
+    padding-top: 5px;
     padding-bottom: 10px;
   }
 
-  .iosImage {
-    height: 85px;
-    width: 85px;
-  }
-
-  .qsLogo {
-    height: 25px;
-    width: 25px;
-  }
-
-  .cppImage {
-    height: 40px;
-    width: 60px;
-  }
-
-  span.longName {
-    display: none;
-  }
-
-  .box:hover span.shortName {
-    display: none;
-  }
-
-  .box:hover span.longName {
-    display: block;
-  }
-
-  .cardLogos {
-    display: flex;
-    padding-top: 1px;
-    padding-bottom: 10px;
-    align-items: center;
+  .projectLogo {
+    padding-top: 0%;
+    height: 30px;
+    width: 30px;
   }
 }
