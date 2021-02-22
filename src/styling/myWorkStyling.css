@@ -183,13 +183,25 @@ html {
 
   .projectLogos {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 5px;
     padding-bottom: 10px;
   }
 
-  .projectLogo {
+  .singleLogo {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  .singleProjectLogo {
     padding-top: 0%;
+    padding-left: 45px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .projectLogo {
     height: 30px;
     width: 30px;
   }

@@ -76,9 +76,9 @@ const mywork = () => {
                             <p className="projectComponent">Photoshop</p>
                             <p className="projectComponent">Illustrator</p>
                         </div>
-                        <div className="projectLogos">
+                        <div className="singleLogo">
                             <a href="https://quicksandsanangelo.com/">
-                                <img className="projectLogo" src={WebLogo} alt='logo' />
+                                <img className="singleProjectLogo" src={WebLogo} alt='logo' />
                             </a>
                         </div>
                     </div>
@@ -95,9 +95,9 @@ const mywork = () => {
                             <p className="projectComponent">Photoshop</p>
                             <p className="projectComponent">Illustrator</p>
                         </div>
-                        <div className="projectLogos">
+                        <div className="singleLogo">
                             <a href="https://github.com/Cmatttt/Light-Bike-Fight-Final">
-                                <img className="projectLogo" src={Github} alt='logo' />
+                                <img className="singleProjectLogo" src={Github} alt='logo' />
                             </a>
                         </div>
                     </div>
@@ -114,9 +114,9 @@ const mywork = () => {
                             <p className="projectComponent">Firebase</p>
                             <p className="projectComponent">SwiftyJSON</p>
                         </div>
-                        <div className="projectLogos">
+                        <div className="singleLogo">
                             <a href="https://github.com/Cmatttt/cs4306-project">
-                                <img className="projectLogo" src={Github} alt='logo' />
+                                <img className="singleProjectLogo" src={Github} alt='logo' />
                             </a>
                         </div>
                     </div>
@@ -130,9 +130,9 @@ const mywork = () => {
                         <div className="projectComponents">
                             <p className="projectComponent">C++</p>
                         </div>
-                        <div className="projectLogos">
+                        <div className="singleLogo">
                             <a href="https://github.com/Cmatttt/cs4306-project">
-                                <img className="projectLogo" src={Github} alt='logo' />
+                                <img className="singleProjectLogo" src={Github} alt='logo' />
                             </a>
                         </div>
                     </div>
