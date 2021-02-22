@@ -1,30 +1,36 @@
 import React from 'react'
 import "../styling/homepage.css";
 import Logo from '../images/cmLogoModern.svg';
-import CardFlip from '../images/cardFlip.png';
-import BarFinder from '../images/localBarFinder.png';
-import Github from '../images/github.png';
-import Codepen from '../images/codepen.png';
-import Quicksand from '../images/quicksand.png';
-import WebLogo from '../images/web.png';
-import Ios1 from '../images/ios1.png';
-import Ios2 from '../images/ios2.png';
-import Cpp from '../images/cpp.png';
-import Lightbike from '../images/lightbike.png';
-import { Link } from 'react-router-dom';
+import Github from '../images/githubWhite.png';
+import Linkedin from '../images/linkedin.png';
 
 function Home() {
     return (
- 
-        <div className="header">
+        <div className="home">
+            <div className="header">
 
-            <img src={Logo} alt='logo' />
+                <img src={Logo} alt='logo' />
 
-            <div className="description">
-                <p>Software Developer</p>
+                <div className="description">
+                    <p>Software Developer</p>
+                </div>
             </div>
 
-            
+            <div className="buttonLocation">
+                <div class="button" id="btn">
+                    <div id="circle"></div>
+                    <a href="./download" download="ChristianMatthewsResume.pdf">resumé</a>
+                </div>
+            </div>
+
+            <div className="socials">
+                <a href="https://www.linkedin.com/in/christian-m-112061110/">
+                    <img className="social" src={Linkedin} alt='Linkedin' />
+                </a>
+                <a href="https://github.com/Cmatttt">
+                    <img className="social" src={Github} alt='Github' />
+                </a>
+            </div>
         </div>
     )
 }
