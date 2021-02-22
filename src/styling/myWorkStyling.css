@@ -146,6 +146,10 @@ html {
     margin: 0%;
   }
 
+  .projectDetail {
+    margin-right: 25px;
+  }
+
   .androidImage {
     height: 90px;
     width: 50px;
