@@ -72,6 +72,13 @@ html {
   padding-bottom: 10px;
 }
 
+.singleLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
 .projectDescription {
   text-align: center;
   margin: 10px;
@@ -84,7 +91,7 @@ html {
 
 .iosImage {
   height: 140px;
-  width: 190px;
+  width: 160px;
 }
 
 .androidImage {
@@ -93,6 +100,11 @@ html {
 }
 
 .projectLogo {
+  width: 50px;
+  height: 50px;
+}
+
+.singleProjectLogo {
   width: 50px;
   height: 50px;
 }
@@ -192,6 +204,7 @@ html {
     display: flex;
     padding-top: 5px;
     padding-bottom: 10px;
+    justify-content: unset;
   }
 
   .singleProjectLogo {
