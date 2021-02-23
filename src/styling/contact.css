@@ -87,4 +87,16 @@ textarea:focus {
   .form > h1 {
     font-size: 45px;
   }
+
+  .form > input,
+  textarea {
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  .form > textarea {
+    height: 80px;
+    max-width: 400px;
+    min-height: 80px;
+  }
 }

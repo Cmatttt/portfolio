@@ -125,4 +125,7 @@ a {
     font-weight: lighter;
     text-align: center;
   }
+  .buttonLocation {
+    padding-top: 200px;
+  }
 }
