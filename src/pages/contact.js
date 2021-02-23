@@ -21,8 +21,8 @@ const Contact = () => {
         database.collection('mail').add({
             to: "cmatt1299@gmail.com",
             message: {
-                subject: "A message from your portfolio",
-                text: message,
+                subject: "A message from your portfolio from " + name,
+                text: message + "sent from -" + email,
             },
         })
 
@@ -48,7 +48,7 @@ const Contact = () => {
                 <input placeholder="Name" value={name} onChange={(e) => setName(e.target.value)}/>
 
                 <label>Email</label>
-                <input placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)}/>
+                <input placeholder="Email" type="email" required value={email} onChange={(e) => setEmail(e.target.value)}/>
 
                 <label>Message</label>
                 <textarea placeholder="Message" value={message} onChange={(e) => setMessage(e.target.value)}/>

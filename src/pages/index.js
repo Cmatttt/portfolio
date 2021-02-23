@@ -17,6 +17,10 @@ function Home() {
                 </div>
             </div>
 
+            <div className="aboutMe">
+                <h1></h1>
+            </div>
+
             <div className="buttonLocation">
                 <div class="button" id="btn">
                     <div id="circle"></div>
