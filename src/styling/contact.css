@@ -1,0 +1,90 @@
+html {
+  background-color: grey;
+}
+
+.conatctDiv {
+  background-image: url("../images/sunset.jpg");
+  background-size: 100% 100%;
+  /* opacity: 0.50; */
+  height: 1200px;
+}
+
+.form {
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  justify-content: center;
+  top: 15%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -120px;
+}
+
+.form > h1 {
+  font-family: josefin, serif;
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+
+.form > input,
+textarea {
+  padding: 20px;
+  border-radius: 3px;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  /* border: none; */
+  background: #fff;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+}
+
+.form > input:focus,
+textarea:focus {
+  border: 1px solid #15cdfc;
+}
+
+.form > textarea {
+  height: 150px;
+  max-width: 400px;
+  min-height: 100px;
+}
+
+.form > label {
+  padding-bottom: 10px;
+  color: rgb(0, 0, 32);
+}
+
+.form > button {
+  padding: 20px;
+  border: none;
+  background-color: #0e93b4;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+.form > button:hover {
+  background-color: #0b7590;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .conatctDiv {
+    background-image: url("../images/mobile_sunset.jpg");
+    background-size: 100% 100%;
+    /* opacity: 0.50; */
+    height: 812px;
+  }
+
+  .form > h1 {
+    font-size: 45px;
+  }
+}

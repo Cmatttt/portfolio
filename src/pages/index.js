@@ -3,6 +3,7 @@ import "../styling/homepage.css";
 import Logo from '../images/cmLogoModern.svg';
 import Github from '../images/githubWhite.png';
 import Linkedin from '../images/linkedin.png';
+import Pdf from '../download/resume.pdf';
 
 function Home() {
     return (
@@ -19,7 +20,7 @@ function Home() {
             <div className="buttonLocation">
                 <div class="button" id="btn">
                     <div id="circle"></div>
-                    <a href="./download" download="ChristianMatthewsResume.pdf">resumé</a>
+                    <a href={Pdf} target="_blank" download>resumé</a>
                 </div>
             </div>
 
