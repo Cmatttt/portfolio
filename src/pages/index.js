@@ -22,8 +22,8 @@ function Home() {
                 <p className="aboutMeDetails">Hello! I’m Christian, a software developer with a focus 
                     in web and mobile development. I have a strong passion 
                     for coding with a drive to continue learning every day to 
-                    better my craft. Currently i’m a Senior pursuing a bachelor's 
-                    degree in Computer Science with a graduation date set for May 2021.</p>
+                    better my craft. Currently i’m a Senior pursuing a Bachelor's 
+                    Degree in Computer Science with a graduation date set for May 2021.</p>
             </div>
 
             <footer>

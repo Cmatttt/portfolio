@@ -11,6 +11,9 @@ import Ios1 from '../images/ios1.png';
 import Ios2 from '../images/ios2.png';
 import Cpp from '../images/cpp.png';
 import Lightbike from '../images/lightbike.png';
+import download from '../images/download.png';
+import Compiler from '../download/christian_matthews_compiler.zip';
+
 
 const mywork = () => {
     return (
@@ -131,8 +134,8 @@ const mywork = () => {
                             <p className="projectComponent">C++</p>
                         </div>
                         <div className="singleLogo">
-                            <a href="https://github.com/Cmatttt/cs4306-project">
-                                <img className="singleProjectLogo" src={Github} alt='logo' />
+                            <a href={Compiler} target="_blank" download>
+                                <img className="singleProjectLogo" src={download} alt='logo' />
                             </a>
                         </div>
                     </div>
