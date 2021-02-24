@@ -1,5 +1,5 @@
 html {
-  background-color: gray;
+  background-color: black;
 }
 
 .home {
@@ -7,9 +7,6 @@ html {
   background-size: 100% 100%;
   /* opacity: 0.50; */
   height: 1200px;
-}
-
-.header {
 }
 
 img {
@@ -21,14 +18,38 @@ img {
 }
 
 .description {
-  margin-top: -50px;
-  font-size: 60px;
+  margin-top: -35px;
+  font-size: 50px;
   font-weight: lighter;
   text-align: center;
 }
 
+.descriptionName {
+  /* font-family: "Lato", sans-serif; */
+}
+
+.aboutMe {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutmeHeader {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.aboutMeDetails {
+  font-size: 18px;
+}
+
 .buttonLocation {
-  padding-top: 300px;
   display: flex;
   justify-content: center;
 }
@@ -38,7 +59,7 @@ img {
   height: 40px;
   width: 150px;
   border: 2px solid #bfc0c0;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 20px 50px 20px;
   color: #bfc0c0;
   text-transform: uppercase;
   text-decoration: none;
@@ -120,12 +141,24 @@ a {
   }
 
   .description {
-    margin-top: -40px;
-    font-size: 38px;
-    font-weight: lighter;
-    text-align: center;
+    margin-top: -18px;
+    font-size: 26px;
   }
+
+  .aboutMe {
+    margin-top: 25px;
+    /* margin-bottom: 25px; */
+  }
+
+  .aboutmeHeader {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .aboutMeDetails {
+    font-size: 10px;
+  }
+
   .buttonLocation {
-    padding-top: 200px;
   }
 }
