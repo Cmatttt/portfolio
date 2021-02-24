@@ -31,7 +31,7 @@ img {
 .aboutMe {
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
   border-radius: 10px;
   padding: 20px;
@@ -141,18 +141,19 @@ a {
   }
 
   .description {
-    margin-top: -18px;
+    margin-top: -5px;
     font-size: 26px;
   }
 
   .aboutMe {
-    margin-top: 25px;
+    width: 70%;
+    margin-top: 45px;
     /* margin-bottom: 25px; */
   }
 
   .aboutmeHeader {
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .aboutMeDetails {
@@ -160,5 +161,10 @@ a {
   }
 
   .buttonLocation {
+  }
+
+  .social {
+    height: 35px;
+    width: 35px;
   }
 }
