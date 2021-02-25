@@ -3,7 +3,7 @@ import "../styling/homepage.css";
 import Logo from '../images/cmLogoModern.svg';
 import Github from '../images/githubWhite.png';
 import Linkedin from '../images/linkedin.png';
-import Pdf from '../download/Christian_Matthews_Resume.PDF';
+import Pdf from '../download/Christian_Matthews_Resume.pdf';
 
 function Home() {
     return (
