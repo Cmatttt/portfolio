@@ -1,6 +1,5 @@
 import React from 'react'
 import "../styling/myWorkStyling.css";
-import Logo from '../images/cmLogoModern.svg';
 import CardFlip from '../images/cardFlip.png';
 import BarFinder from '../images/localBarFinder.png';
 import Github from '../images/github.png';
@@ -12,6 +11,7 @@ import Ios2 from '../images/ios2.png';
 import Cpp from '../images/cpp.png';
 import Lightbike from '../images/lightbike.png';
 import download from '../images/download.png';
+import Messenger from '../images/messenger.png';
 import Compiler from '../download/christian_matthews_compiler.zip';
 
 
@@ -22,6 +22,29 @@ const mywork = () => {
                 <p className="work">Projects</p>
             </div>
             <div className="allWork">
+
+            <div className="projects">
+                    <img  className="projectImage" src={Messenger} alt='logo' />
+                    <div className="projectDetail">
+                        <p className="projectTitle">React Messenger</p>
+                        <p className="projectDescription">Messaging app created using React JS and Firebase</p>
+                        <div className="projectComponents">
+                            <p className="projectComponent">ReactJS</p>
+                            <p className="projectComponent">Firebase</p>
+                            <p className="projectComponent">Javascript</p>
+                            <p className="projectComponent">CSS</p>
+                        </div>
+                        <div className="projectLogos">
+                            <a href="https://messenger-app-a4d9a.web.app/">
+                                <img className="projectLogo" src={WebLogo} alt='logo' />
+                            </a>
+                            <a href="https://github.com/Cmatttt/react-messenger">
+                                <img className="projectLogo" src={Github} alt='logo' />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="projects">
                     <img  className="projectImage" src={CardFlip} alt='logo' />
                     <div className="projectDetail">
