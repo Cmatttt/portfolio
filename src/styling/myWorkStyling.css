@@ -2,6 +2,33 @@ html {
   background-color: black;
 }
 
+@keyframes slideInFromBottom {
+  0% {
+    transform: translatey(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 .mywork {
   background-image: url("../images/sunset.jpg");
   background-size: 100% 100%;
@@ -29,6 +56,10 @@ html {
 }
 
 .projects {
+  -webkit-animation: 1s ease-out 0s 1 slideInFromBottom;
+  -moz-animation: 1s ease-out 0s 1 slideInFromBottom;
+  -o-animation: 1s ease-out 0s 1 slideInFromBottom;
+  animation: 1s ease-out 0s 1 slideInFromBottom;
   width: 240px;
   background-color: rgba(255, 255, 255, 0.8);
   margin: 20px;
@@ -128,6 +159,19 @@ html {
     padding-left: 200px;
     padding-right: 200px;
     display: inline;
+  }
+
+  .projects:nth-child(odd) {
+    -webkit-animation: 1s ease-out 0s 1 slideInFromLeft;
+    -moz-animation: 1s ease-out 0s 1 slideInFromLeft;
+    -o-animation: 1s ease-out 0s 1 slideInFromLeft;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+  .projects:nth-child(even) {
+    -webkit-animation: 1s ease-out 0s 1 slideInFromRight;
+    -moz-animation: 1s ease-out 0s 1 slideInFromRight;
+    -o-animation: 1s ease-out 0s 1 slideInFromRight;
+    animation: 1s ease-out 0s 1 slideInFromRight;
   }
 
   .projects {
