@@ -19,11 +19,10 @@ function Home() {
 
             <div className="aboutMe">
                 <p className="aboutmeHeader"><u>About me</u></p>
-                <p className="aboutMeDetails">Hello! I’m Christian, a software developer with a focus 
-                    in web and mobile development. I have a strong passion 
-                    for coding with a drive to continue learning every day to 
-                    better my craft. Currently i’m a Senior pursuing a Bachelor's 
-                    Degree in Computer Science with a graduation date set for May 2021.</p>
+                <p className="aboutMeDetails">Hello! I’m Christian, a Software Developer with
+                 a strong interest in learning new technologies and a problem solver with great communication 
+                 and critical thinking skills. Currently i’m a Senior pursuing a Bachelor's 
+                 Degree in Computer Science with a graduation date set for May 2021, I am willing to relocate.</p>
             </div>
 
             <footer>
