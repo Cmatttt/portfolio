@@ -21,8 +21,7 @@ function Home() {
                 <p className="aboutmeHeader"><u>About me</u></p>
                 <p className="aboutMeDetails">Hello! I’m Christian, a Software Developer with
                  a strong interest in learning new technologies and a problem solver with great communication 
-                 and critical thinking skills. Currently i’m a Senior pursuing a Bachelor's 
-                 Degree in Computer Science with a graduation date set for May 2021, I am willing to relocate.</p>
+                 and critical thinking skills. Currently i’m working as a software dveloper for General Motors.</p>
             </div>
 
             <footer>
